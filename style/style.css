@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__container {
+    display: flex;
+}
+
+.header__nav {
+    background: #282828;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header__nav-link {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    font-family: 'MB';
+}
+
+.header__logo {
+    padding-right: 30px;
+}
+
+.header__image-block {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-left: 683px;
+}
+
+.header__content {
+    background: url(../images/AirPods.jpg) no-repeat center /cover;
+    height: 700px;
+}
+
+.header__content-block {
+    text-align: center;
+}
+
+.header__content-logo {
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+    font-family: 'POR';
+    padding-top: 270px;
+    margin-bottom: 45px;
+}
+
+.content__link {
+    font-size: 20px;
+    line-height: 24px; 
+    color: #171718;
+    font-family: 'MM';
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 14px 13px;
+}
+
+.content__link-image {
+    padding-left: 11px;
+}
+
+.main {
+    background: #151515;
+}
+
+.main__top {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.top__left-text {
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    font-family: 'MM';
+    width: 528px;
+    padding-top: 63px;
+}
+
+.top__image {
+    padding-top: 30px;
+}
+
+.bottom__right-text {
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    font-family: 'MM';
+    width: 540px;
+}
+
+.main__bottom {
+    display: flex;
+    gap: 87px;
+    padding-bottom: 50px;
+}
+
+.main__bottom-right {
+    display: flex;
+    align-items: center;
+}
+
+.main__last-top {
+    display: flex;
+    align-items: center;
+}
+
+.last__top-first {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;    
+    color: #FFFFFF;
+    font-family: 'MB';
+    width: 333px;
+}
+
+.last__top-second {
+    font-size: 20px;
+    line-height: 24px;    
+    color: #FFFFFF;
+    font-family: 'MB';
+    width: 333px;
+}
+
+.text__first {
+    width: 333px;
+}
+
+.text__second {
+    width: 333px;
+}
+
+.last__top-image {
+    display: flex;
+    align-items: center;
+    padding: 0 13px;
+}
+
+.last__top-image::before {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+}
+
+.last__top-image::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+}
+
+.last__top-img {
+    padding: 0 14px 79px 14px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 55px;
+}
+
+.section__title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'MB';
+    text-align: center;
+    padding-top: 15px;
+}
+
+.section__image {
+    padding: 10px 63px;
+}
+
+.section__text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    font-family: 'MR';
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.section__link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'MB';
+    background: #151515;
+    width: 161px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 47px;
+}
+
+.section__device-first {
+    width: 255px;
+    height: 312px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.section__device-second {
+    width: 255px;
+    height: 312px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.section__device-third {
+    width: 255px;
+    height: 312px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.section__device-fourth {
+    width: 255px;
+    height: 312px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.footer {
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25); 
+}
+
+.footer__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 215px;
+}
+
+.footer__list {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__link {
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'MB';
+}
+
+.footer__img-first {
+    padding-right: 30px;
+}
